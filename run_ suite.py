@@ -19,7 +19,8 @@ suite.addTest(unittest.makeSuite(TestEmployee))
 
 # 指定测试报告路径
 # report = "./report/report.html"
-report = app.BASE_DIR + "/report/report-{}.html".format(time.strftime("%Y%m%d-%H%M%S"))
+# report = app.BASE_DIR + "/report/report-{}.html".format(time.strftime("%Y%m%d-%H%M%S"))
+report = app.BASE_DIR + "/report/report.html"
 
 
 # 文件流形式打开文件
